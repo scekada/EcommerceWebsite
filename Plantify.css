@@ -1,0 +1,298 @@
+body {
+    background-color: linen;
+}
+h1 {
+    color: green;
+    font-family: "Lucida Handwriting";
+    font-size: 50px;
+    margin-right: 500px;
+}
+h2 {
+    color: white;
+    font-family: "Lucida Handwriting";
+    position: absolute;
+    top: 1000px;
+    left: 40px;
+}
+h3 {
+    color: green;
+    font-size: 20px;
+    margin-left: 80px;
+}
+h4 {
+    color: black;
+    font-family: "Lucida Handwriting";
+    font-size: 50px;
+}
+h5 {
+    color: black;
+    font-size: 20px;
+}
+h6 {
+    color: #004d00;
+    font-size: 30px;
+    margin: 10px;
+    width: 50%;
+}
+div.block {
+    background-color: white;
+    padding: 30px 30px;
+    margin: auto;
+    width: 30%;   
+}
+#border {
+    border: 2px solid black;
+    width: 95%;
+    padding: 10px;
+}
+#submit {
+    padding: 10px 20px;
+}
+#submit:hover {
+    background-color: green;
+    color: white;
+}
+.n1 {
+    border-top: 4px solid green;
+    text-decoration: none;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+.button {
+    background-color: linen;
+    color: green;
+    padding: 12px 20px;
+    border: none;
+    font-size: 20px;
+}
+li.menu {
+    display: inline-block;
+}
+.menu-m {
+    display: none;
+    position: absolute;
+}
+.menu-m a {
+    display: block;
+    color: green;
+    text-decoration: none;
+    padding: 10px 16px;
+    z-index: 1;
+}
+.menu:hover .menu-m {
+    display: block;
+}
+.menu:hover .button {
+    background-color: darkgreen;
+    border-radius: 20px;
+    color: white;
+}
+.menu-m a:hover {
+    color: #ffd11a;
+}
+a.a {
+    text-decoration: none;
+    background-color: linen;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 1150px;
+    left: 120px;
+}
+a.c1:active, a.c1:link, a.c1:visited {
+    text-decoration: none;
+    background-color: linen;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    float: left;
+}
+a.c1:hover {
+    background-color: green;
+    color: white;
+}
+img.c1 {
+    float: right;
+    border-radius: 50px;
+}
+a.c2:active, a.c2:link, a.c2:visited {
+    text-decoration: none;
+    background-color: linen;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    float: left;
+}
+a.c2:hover {
+    background-color: green;
+    color: white;
+}
+img.c2 {
+    float: right;
+    border-radius: 50px;
+}
+a.c3:active, a.c3:link, a.c3:visited {
+    text-decoration: none;
+    background-color: linen;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    float: left;
+}
+a.c3:hover {
+    background-color: green;
+    color: white;
+}
+img.c3 {
+    float: right;
+    border-radius: 50px;
+}
+a.c4:active, a.c4:link, a.c4:visited {
+    text-decoration: none;
+    background-color: linen;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    float: left;
+}
+a.c4:hover {
+    background-color: green;
+    color: white;
+}
+img.c4 {
+    float: right;
+    border-radius: 50px;
+}
+a.c5:active, a.c5:link, a.c5:visited {
+    text-decoration: none;
+    background-color: linen;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    float: left;
+}
+a.c5:hover {
+    background-color: green;
+    color: white;
+}
+img.c5 {
+    float: right;
+    border-radius: 50px;
+}
+a.c6:active, a.c6:link, a.c6:visited {
+    text-decoration: none;
+    background-color: linen;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    float: left;
+}
+a.c6:hover {
+    background-color: green;
+    color: white;
+}
+img.c6 {
+    float: right;
+    border-radius: 50px;
+}
+a.c7:active, a.c7:link, a.c7:visited {
+    text-decoration: none;
+    background-color: linen;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    float: right;
+}
+a.c7:hover {
+    background-color: white;
+    color: green;
+}
+img.c7 {
+    float: right;
+    border-radius: 50px;
+}
+a.c8:active, a.c8:link, a.c8:visited {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    float: right;
+}
+a.c8:hover {
+    background-color: white;
+    color: green;
+}
+img.c8 {
+    float: right;
+    border-radius: 50px;
+}
+div.gallery {
+    margin: 10px;
+    border: 2px solid linen;
+    float: left;
+    width: 500px;
+    opacity: 0.8;
+}
+div.gallery:hover {
+    border: 2px solid green;
+    opacity: 1;
+}
+div.desc {
+    padding: 10px;
+    text-align: center;
+}
+img.m {
+    float: right;
+    margin-right: 40px;
+}
+a.c9:active, a.c9:link, a.c9:visited {
+    text-decoration: none;
+    background-color: linen;
+    color: green;
+    padding: 12px 20px;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    float: left;
+}
+a.c9:hover {
+    background-color: darkgreen;
+    color: white;
+}
+img.c9 {
+    font-family: "Lucida Handwriting";
+    float: right;
+    border-radius: 50px;
+}
+img.n {
+    float: right;
+    margin-right: 40px;
+}
