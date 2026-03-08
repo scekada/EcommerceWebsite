@@ -79,7 +79,7 @@ body {
     object-fit: cover;
 }
 .plant-title{
-    font-size: 1rem;
+    font-size: 15px;
     font-weight: 600;
     color: green;
   }
@@ -154,7 +154,7 @@ body {
 .cart-content {
     flex: 1;
     overflow-y: auto;
-    padding: 20px;             /* move padding here instead */
+    padding: 20px;
 }
 
 .cart-active {
@@ -163,7 +163,7 @@ body {
 }
   
 .cart-plant-title{
-     font-size: 1rem;
+     font-size: 15px;
      text-transform: uppercase;
      color:green;
      font-weight: 500;
@@ -178,7 +178,7 @@ body {
     outline:none ;
     width: 2.4rem;
     text-align: center;
-    font-size: 1rem;
+    font-size: 20px;
   }
   
   .cart-remove{
@@ -219,3 +219,4 @@ body {
     .btn-buy:hover {
     background-color: rgb(71, 163, 126);
   }
+
